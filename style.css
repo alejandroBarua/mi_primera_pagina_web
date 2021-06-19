@@ -1,0 +1,57 @@
+.container-hashtags {
+  display: grid;
+  grid-auto-flow: column;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.title-panda {
+  cursor: pointer;
+}
+
+.container-primary {
+  width: 60%;
+}
+
+.container-today {
+  width: 35%;
+}
+
+i {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+i:hover {
+  color: rgb(151, 3, 151);
+}
+
+.register:hover {
+  background: rgb(139, 1, 139);
+}
+
+.container-today > div:hover {
+  cursor: pointer;
+  color: rgb(139, 1, 139);
+}
+
+.container-blogs > div:hover {
+  cursor: pointer;
+  border-color: rgb(139, 1, 139);
+}
+
+@media (max-width: 992px) {
+  .register {
+    width: 80px;
+    position: relative;
+    left: 10px;
+  }
+
+  .container-primary {
+    width: 100%;
+  }
+
+  .container-today {
+    width: 100%;
+  }
+}
