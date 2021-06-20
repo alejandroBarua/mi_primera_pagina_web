@@ -1,8 +1,7 @@
 app.component('categories', {
-
-	template: `
+	template: //html
+    `
 	<div class=" bg-dark">
-
         <div class=" p-2 container bg-dark d-flex">
             <i @click="toLeft" class="fas fa-arrow-circle-left fs-2 align-middle pe-2 pt-2 btn-left"></i>
             <div class="container-categories">
