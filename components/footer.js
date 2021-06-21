@@ -5,7 +5,7 @@ app.component('footer-me', {
 	},
 	template: //html
 	`
-	<footer class="mt-5 bg-dark text-white d-flex align-items-center justify-content-center">
+	<footer class="footer mt-5 bg-dark text-white d-flex align-items-center justify-content-center">
         <p class="pt-2">{{name}}</p>
         <p class="px-3 pt-2">|</p>
         <div>
